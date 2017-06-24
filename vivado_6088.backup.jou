@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 22 18:09:19 2017
+# Process ID: 6088
+# Current directory: D:/UNB/PED/Trabalho Final/projeto_fish
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3448 D:\UNB\PED\Trabalho Final\projeto_fish\projeto_fish.xpr
+# Log file: D:/UNB/PED/Trabalho Final/projeto_fish/vivado.log
+# Journal file: D:/UNB/PED/Trabalho Final/projeto_fish\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.xpr}
+close [ open {D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd} w ]
+add_files {{D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ValorPolinomio [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source ValorPolinomio.tcl
+close_sim
+launch_simulation
+launch_simulation
+source ValorPolinomio.tcl
+restart
+close [ open {D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/mostraNumero.vhd} w ]
+add_files {{D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/mostraNumero.vhd}}
+close [ open {D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd} w ]
+add_files {{D:/UNB/PED/Trabalho Final/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Main [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
