@@ -11,3 +11,13 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr
+launch_simulation
+source ValorPolinomio.tcl
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1

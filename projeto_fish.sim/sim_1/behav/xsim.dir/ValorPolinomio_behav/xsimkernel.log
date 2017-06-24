@@ -1,7 +1,4 @@
-Running: xsim.dir/ValorPolinomio_behav/xsimk.exe -simmode gui -wdb ValorPolinomio_behav.wdb -simrunnum 0 -socket 60079
+Running: xsim.dir/ValorPolinomio_behav/xsimk.exe -simmode gui -wdb ValorPolinomio_behav.wdb -simrunnum 0 -socket 51381
 Design successfully loaded
-Design Loading Memory Usage: 8536 KB (Peak: 8536 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 9376 KB (Peak: 9376 KB)
-Simulation CPU Usage: 15 ms
+Design Loading Memory Usage: 9036 KB (Peak: 9036 KB)
+Design Loading CPU Usage: 61 ms

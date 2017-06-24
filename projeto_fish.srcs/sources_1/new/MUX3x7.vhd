@@ -20,6 +20,7 @@ begin
         when "100" => ProcessoSaida <="0010000"; -- Para o processo de coleta do grau do segundo polinomio 
         when "101" => ProcessoSaida <="0100000"; -- Para o processo de coleta dos coeficientes do segundo polinomio
         when "110" => ProcessoSaida <="1000000"; -- Para o processo de calculo da operacao entre polinomios
+        when others => ProcessoSaida <="0000000"; 
     end case;
 end process;
 end Behavioral;

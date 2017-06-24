@@ -99,3 +99,559 @@ selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0
 // [GUI Memory]: 71 MB (+634kb) [00:48:11]
 // HMemoryUtils.trashcanNow. Engine heap size: 451 MB. GUI used memory: 30 MB. Current time: 6/24/17 7:31:05 PM BRT
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// Elapsed time: 4345 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("Main.vhd", 269, 106); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 269, 106, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vhd", 284, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G1 - MUX3x7 - Behavioral (MUX3x7.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G2 - E0_Modo - Behavioral (E0_Modo.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G2 - E0_Modo - Behavioral (E0_Modo.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G2 - E0_Modo - Behavioral (E0_Modo.vhd)]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 215, 149); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 216, 151, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 230, 118); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 268, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 270, 94, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 270, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 270, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 164, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 164, 147, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 164, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 239, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 94, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 121, 158); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 180, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 180, 181, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 404, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 76, 104); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G2 - E0_Modo - Behavioral (E0_Modo.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), G2 - E0_Modo - Behavioral (E0_Modo.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+// [GUI Memory]: 75 MB (+769kb) [01:14:18]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ValorPolinomio - Behavioral (ValorPolinomio.vhd)]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GrauPolinomio - Behavioral (GrauPolinomio.vhd)]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ValorPolinomio - Behavioral (ValorPolinomio.vhd)]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, polinomios - Behavioral (polinomios.vhd)]", 7, false); // y:i (D:JPanel, cd:JFrame)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u:K (t:D, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e:bt (cd:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'ValorPolinomio' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav' 
+// Tcl Message: "xvhdl -m64 --relax -prj ValorPolinomio_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity ValorPolinomio 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav' 
+// Tcl Message: Vivado Simulator 2016.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 56abbe35f343487ca8bc204a0061ea2e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ValorPolinomio_behav xil_defaultlib.ValorPolinomio -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 Compiling architecture behavioral of entity xil_defaultlib.valorpolinomio 
+// Tcl Message: Built simulation snapshot ValorPolinomio_behav 
+// Tcl Message:  ****** Webtalk v2016.4 (64-bit)   **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017   **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/ValorPolinomio_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/ValorPolinomio_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Jun 24 19:44:56 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sat Jun 24 19:44:56 2017... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 742.723 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "ValorPolinomio_behav -key {Behavioral:sim_1:Functional:ValorPolinomio} -tclbatch {ValorPolinomio.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2016.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source ValorPolinomio.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'ValorPolinomio_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 742.723 ; gain = 0.000 
+// 'd' command handler elapsed time: 29 seconds
+// Elapsed time: 29 seconds
+dismissDialog("Run Simulation"); // e:bt (cd:JFrame)
+// [GUI Memory]: 82 MB (+3462kb) [01:15:12]
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // u:aE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15, true); // u:K (t:D, cd:JFrame) - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:02:14 ; elapsed = 01:16:18 . Memory (MB): peak = 766.641 ; gain = 556.648 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:25] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:02:15 ; elapsed = 01:16:20 . Memory (MB): peak = 804.082 ; gain = 594.090 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+// Elapsed time: 10 seconds
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:25]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\MaquinaEstados.vhd;-;;-;16;-;line;-;25;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 193, 73); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 194, 73, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MaquinaEstados.vhd", 194, 73); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 193, 63); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 193, 63, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MaquinaEstados.vhd", 193, 63); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 193, 63); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 151, 65); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 149, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 149, 76, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MaquinaEstados.vhd", 149, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]. ]", 3, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\MaquinaEstados.vhd;-;;-;16;-;line;-;10;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]. ]", 3, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]. ]", 3); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]. , [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]. ]", 4, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\Main.vhd;-;;-;16;-;line;-;13;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 144, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 144, 217, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vhd", 144, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 97, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 147, 71); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 145, 72); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 144, 72, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vhd", 168, 72); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 166, 72, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 95, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 136, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 136, 95, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MaquinaEstados.vhd", 143, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 143, 93, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MaquinaEstados.vhd", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:02:38 ; elapsed = 01:17:25 . Memory (MB): peak = 809.223 ; gain = 599.230 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:25] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:02:39 ; elapsed = 01:17:26 . Memory (MB): peak = 809.223 ; gain = 599.230 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectCodeEditor("Main.vhd", 95, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 214, 327); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 255, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 280, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 479 MB (+6539kb) [01:17:04]
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 487 MB. GUI used memory: 38 MB. Current time: 6/24/17 7:46:55 PM BRT
+// Elapsed time: 35 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:02:56 ; elapsed = 01:18:56 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:48] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:02:57 ; elapsed = 01:18:57 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. ]", 1, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. ]", 1); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectCodeEditor("MaquinaEstados.vhd", 128, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:03:06 ; elapsed = 01:19:44 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:48] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:03:07 ; elapsed = 01:19:45 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 186, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// [GUI Memory]: 87 MB (+79kb) [01:19:31]
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:03:15 ; elapsed = 01:20:14 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:49] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:03:16 ; elapsed = 01:20:15 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]. ]", 3, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\MaquinaEstados.vhd;-;;-;16;-;line;-;10;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:49]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\MaquinaEstados.vhd;-;;-;16;-;line;-;49;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+selectCodeEditor("MaquinaEstados.vhd", 314, 152); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MaquinaEstados.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:03:25 ; elapsed = 01:21:12 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39] INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9] 
+// Tcl Message: ERROR: [Synth 8-426] missing choice(s) 32'b00000000000000000000000000000111 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:15] ERROR: [Synth 8-285] failed synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9] ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:03:26 ; elapsed = 01:21:13 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 6 Infos, 3 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-426] missing choice(s) 32'b00000000000000000000000000000111 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:15]. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\MUX3x7.vhd;-;;-;16;-;line;-;15;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "MUX3x7.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "MUX3x7.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:03:35 ; elapsed = 01:21:54 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39] INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9] INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9] 
+// Tcl Message: ERROR: [Synth 8-549] port width mismatch for port 'ProcessoSaida': port width = 7, actual width = 3 [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39] ERROR: [Synth 8-549] port width mismatch for port 'Processo': port width = 3, actual width = 7 [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39] 
+// Tcl Message: INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:34' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:40] 
+// Tcl Message: ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:03:36 ; elapsed = 01:21:54 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 8 Infos, 3 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// M:a (cd:JFrame): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, synth_design -rtl -name rtl_1. , [Synth 8-549] port width mismatch for port 'ProcessoSaida': port width = 7, actual width = 3 [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]. ]", 2, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.srcs\sources_1\new\Main.vhd;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 149, 37, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 149, 37, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 149, 37); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 325, 55); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Main.vhd", 262, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // H:a (Workspace:JPanel, cd:JFrame)
+selectCodeEditor("Main.vhd", 561, 224); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 36 seconds
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 561, 224, false, true, false, false, false); // bF:I (JPanel:JComponent, cd:JFrame) - Control Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // u:K (t:D, cd:JFrame)
+// y:aO (cd:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // y:aO (cd:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Main 
+// [Engine Memory]: 506 MB (+3249kb) [01:23:04]
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 516 MB. GUI used memory: 40 MB. Current time: 6/24/17 7:52:55 PM BRT
+// [Engine Memory]: 572 MB (+42315kb) [01:23:09]
+// [Engine Memory]: 624 MB (+25523kb) [01:23:14]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 39 MB. Current time: 6/24/17 7:53:06 PM BRT
+// [Engine Memory]: 697 MB (+43035kb) [01:23:17]
+// [Engine Memory]: 736 MB (+4511kb) [01:23:18]
+// Xgd.load filename: C:/Xilinx/Vivado/2016.4/data/./parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 1s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.3s
+// [Engine Memory]: 791 MB (+19288kb) [01:23:19]
+// [GUI Memory]: 93 MB (+1711kb) [01:23:23]
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:03:46 ; elapsed = 01:23:41 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13] INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38] INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:03:47 ; elapsed = 01:23:42 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:47 ; elapsed = 01:23:43 . Memory (MB): peak = 842.043 ; gain = 632.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:04:08 ; elapsed = 01:24:07 . Memory (MB): peak = 1093.375 ; gain = 883.383 
+// Tcl Message: 16 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1093.375 ; gain = 251.332 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 31 seconds
+dismissDialog("Open Elaborated Design"); // bt:g (cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F:H (Workspace:JPanel, cd:JFrame)
+// Elapsed time: 36 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// [GUI Memory]: 98 MB (+1365kb) [01:24:27]
+// Elapsed time: 95 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// [GUI Memory]: 104 MB (+335kb) [01:26:41]
+// PAPropertyPanels.initPanels (ProcessoSaida_i (RTL_ROM3)) elapsed time: 1.3s
+// Elapsed time: 375 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f:Q
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F:H (Workspace:JPanel, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 263, 124); // bF:I (JPanel:JComponent, cd:JFrame)
