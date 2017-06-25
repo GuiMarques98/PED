@@ -1,0 +1,163 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 6188
+
+Current time: 	6/22/17 11:08:59 PM BRT
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	guilh
+User home directory: C:/Users/guilh
+User working directory: C:/Users/guilh/Desktop/Vivado/projeto_fish
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/guilh/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/guilh/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 388 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 17 MB (+15259kb) [00:00:12]
+// [Engine Memory]: 329 MB (+193686kb) [00:00:12]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aK:r (cd:JFrame): Older Project Version: addNotify
+// [GUI Memory]: 31 MB (+13899kb) [00:00:25]
+// [Engine Memory]: 388 MB (+44471kb) [00:00:25]
+// HMemoryUtils.trashcanNow. Engine heap size: 388 MB. GUI used memory: 26 MB. Current time: 6/22/17 11:09:01 PM BRT
+// [GUI Memory]: 33 MB (+35kb) [00:01:26]
+// [GUI Memory]: 35 MB (+561kb) [00:01:46]
+// [GUI Memory]: 37 MB (+261kb) [00:02:01]
+// [GUI Memory]: 39 MB (+302kb) [00:02:21]
+// [GUI Memory]: 41 MB (+212kb) [00:02:41]
+// [Engine Memory]: 416 MB (+8447kb) [00:02:46]
+// [GUI Memory]: 44 MB (+418kb) [00:03:07]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aK:r)
+// Opening Vivado Project: C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr. Version: Vivado v2016.1 
+// bt:g (cd:JFrame):  Open Project : addNotify
+dismissDialog("Older Project Version"); // aK:r (cd:JFrame)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Pedro/Desktop/prova PED2/projeto_fish' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'projeto_fish.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 458 MB (+22620kb) [00:03:50]
+// [GUI Memory]: 49 MB (+2792kb) [00:03:53]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 463 MB. GUI used memory: 30 MB. Current time: 6/22/17 11:12:28 PM BRT
+// Project name: projeto_fish; location: C:/Users/guilh/Desktop/Vivado/projeto_fish; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:31 . Memory (MB): peak = 674.828 ; gain = 41.363 
+// Elapsed time: 32 seconds
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// PAPropertyPanels.initPanels (polinomios.vhd) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, polinomios - Behavioral (polinomios.vhd)]", 1, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, polinomios - Behavioral (polinomios.vhd)]", 1, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 52 MB (+616kb) [00:04:01]
+// [GUI Memory]: 56 MB (+1822kb) [00:04:11]
+// Elapsed time: 19 seconds
+selectCodeEditor("polinomios.vhd", 103, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 103, 113, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("polinomios.vhd", 103, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 103, 113); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 117, 85); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 117, 85, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("polinomios.vhd", 117, 85); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 148, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 148, 126, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("polinomios.vhd", 148, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 148, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 203, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 203, 195, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("polinomios.vhd", 203, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 203, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 48, 112); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 166, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 481 MB (+623kb) [00:04:46]
+// [GUI Memory]: 59 MB (+550kb) [00:07:41]
+// [GUI Memory]: 62 MB (+112kb) [-02:-46:-37]
+// [GUI Memory]: 66 MB (+375kb) [-02:-41:-32]
+// [GUI Memory]: 69 MB (+94kb) [-02:-41:-02]
+selectCodeEditor("polinomios.vhd", 132, 154); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 5, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 60, 106); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 38, 132); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 20, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 20, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 28, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 29, 35); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 75 MB (+2242kb) [-02:-38:-34]
+selectCodeEditor("polinomios.vhd", 18, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("polinomios.vhd", 131, 161, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("polinomios.vhd", 63, 83); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 2, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 39, 173); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 39, 173); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 52, 86); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 52, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 52, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 56, 152); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 56, 152, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("polinomios.vhd", 65, 88); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("polinomios.vhd", 65, 88, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 79 MB (+92kb) [-02:-37:-43]
+// [GUI Memory]: 83 MB (+391kb) [-02:-34:-48]
+// Elapsed time: 393 seconds
+selectCodeEditor("polinomios.vhd", 96, 81); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 88 MB (+817kb) [-02:-22:-16]
+// Elapsed time: 737 seconds
+selectCodeEditor("polinomios.vhd", 45, 172); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 239 seconds
+closeMainWindow("projeto_fish - [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr] - Vivado 2016.4"); // cd:JFrame
+// y:aO (cd:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, y:aO)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, y:aO)
+dismissDialog("Exit Vivado"); // y:aO (cd:JFrame)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// Elapsed time: 658 seconds
+closeMainWindow("projeto_fish - [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr] - Vivado 2016.4"); // cd:JFrame
+// y:aO (cd:JFrame): Exit Vivado: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
