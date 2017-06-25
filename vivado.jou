@@ -2,39 +2,15 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Sat Jun 24 18:28:50 2017
-# Process ID: 4024
-# Current directory: C:/Users/guilh/Desktop/Vivado/projeto_fish
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent912 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
-# Log file: C:/Users/guilh/Desktop/Vivado/projeto_fish/vivado.log
-# Journal file: C:/Users/guilh/Desktop/Vivado/projeto_fish\vivado.jou
+# Start of session at: Sun Jun 25 20:06:20 2017
+# Process ID: 4852
+# Current directory: C:/Users/Eduardo Yoshida/Documents/GitHub/PED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4784 C:\Users\Eduardo Yoshida\Documents\GitHub\PED\projeto_fish.xpr
+# Log file: C:/Users/Eduardo Yoshida/Documents/GitHub/PED/vivado.log
+# Journal file: C:/Users/Eduardo Yoshida/Documents/GitHub/PED\vivado.jou
 #-----------------------------------------------------------
-start_gui
-open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr
-launch_simulation
-source ValorPolinomio.tcl
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd
-refresh_design
-refresh_design
-refresh_design
-refresh_design
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-file delete -force C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd
-close_sim
+start_guioopen_project {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.xpr}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BinBCD.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BinBCD.vhd}}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BCD_7seg.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BCD_7seg.vhd}}
