@@ -655,3 +655,448 @@ selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); /
 closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f:Q
 unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F:H (Workspace:JPanel, cd:JFrame)
 selectCodeEditor("MUX3x7.vhd", 263, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 109 MB (+219kb) [01:32:33]
+// Elapsed time: 356 seconds
+selectCodeEditor("MUX3x7.vhd", 200, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 200, 105, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 200, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 25, 68); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 25, 68, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 25, 68); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 16, 55); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 16, 55, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 16, 55); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 112, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 112, 114, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 112, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 75, 44); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 74, 56); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 74, 56, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 74, 56); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 207, 158); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 178, 204); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 231, 68); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 235, 64, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 235, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 235, 64); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 236, 107); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 236, 107, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 236, 107); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 208, 47); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 199, 58); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 118 MB (+3821kb) [01:38:08]
+selectCodeEditor("MUX3x7.vhd", 199, 58, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 199, 58); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 217, 152); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 217, 152, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 217, 152); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 201, 69); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 201, 69, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 201, 69); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 198, 50); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 193, 67); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 193, 67, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("MUX3x7.vhd", 193, 67); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("MUX3x7.vhd", 221, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MaquinaEstados.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f:Q
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[Main, G1 (MUX3x7), Leaf Cells (1)]", 6, true); // aR:bd (JViewport:JComponent, cd:JFrame) - Node
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[Main, G1 (MUX3x7), Nets (10)]", 5); // aR:bd (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11, true); // y:i (D:JPanel, cd:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GrauPolinomio - Behavioral (GrauPolinomio.vhd)]", 13, false); // y:i (D:JPanel, cd:JFrame)
+selectCodeEditor("Main.vhd", 104, 131); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 141, 166); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 189, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 180, 186); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 117, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("E0_Modo.vhd", 146, 91); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 140, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 177, 123); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 160, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 172, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 154, 121); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 180, 123); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 177, 124, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 171, 125); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 315, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 315, 160, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 315, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 318, 223); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 313, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 314, 230, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 314, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 308, 85); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 308, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 308, 75, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("E0_Modo.vhd", 308, 75); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 312, 58); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 18, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 1, 20); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 543 seconds
+selectCodeEditor("E0_Modo.vhd", 79, 61); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 210, 31); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("E0_Modo.vhd", 288, 186); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ValorPolinomio - Behavioral (ValorPolinomio.vhd)]", 12, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ValorPolinomio - Behavioral (ValorPolinomio.vhd)]", 12, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("ValorPolinomio.vhd", 168, 92); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("ValorPolinomio.vhd", 230, 123); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("ValorPolinomio.vhd", 230, 123, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("ValorPolinomio.vhd", 230, 123); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("ValorPolinomio.vhd", 211, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 97 seconds
+selectCodeEditor("ValorPolinomio.vhd", 330, 97); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("ValorPolinomio.vhd", 307, 133); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 124 MB (+23kb) [01:53:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 826 MB. GUI used memory: 66 MB. Current time: 6/24/17 8:23:11 PM BRT
+// Elapsed time: 1561 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Main - Behavioral (Main.vhd)]", 11); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (C:JPanel, b:g)
+// F:q (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // ak:JTextField (JPanel:JComponent, F:q)
+// Elapsed time: 26 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // ak:JTextField (JPanel:JComponent, F:q)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // ak:JTextField (JPanel:JComponent, F:q)
+// Elapsed time: 43 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Pol_Grau"); // ak:JTextField (JPanel:JComponent, F:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:q)
+dismissDialog("Create Source File"); // F:q (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 80 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// bt:g (cd:JFrame):  Add Sources  : addNotify
+// Tcl Message: close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd 
+// I:q (cd:JFrame): Define Module: addNotify
+dismissDialog("Add Sources"); // bt:g (cd:JFrame)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, "in", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 3, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTableHeader(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // W:r (m:JViewport, I:q)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 0, "Port Name", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_MUX", 0, "Port Name", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "A", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; out ; false ; 0 ; 0", 1, (String) null, 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; out ; false ; 0 ; 0", 1, "out", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 1, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, "in", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 2, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // W:r (m:JViewport, I:q)
+// Elapsed time: 13 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_Chave", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; out ; false ; 0 ; 0", 2, (String) null, 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, "in", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 2, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; out ; false ; 0 ; 0", 2, (String) null, 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out", 2, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_Chave ; in ; false ; 0 ; 0", 1, "false", 2); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 0 ; 0", 2, "0", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "3", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 0 ; 3", 2, "0", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 2, "MSB", 3); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 2 ; 3", 2, "3", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 2 ; 2", 2, "2", 4); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 2 ; 2", 2, "2", 4, false, false, false, false, true); // W:r (m:JViewport, I:q) - Double Click
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 2, "LSB", 4); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; true ; 2 ; 0", 2, "2", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 2, "MSB", 3); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_Chave ; in ; false ; 0 ; 0", 1, "false", 2); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_out ; out ; false ; 1 ; 0", 2, "false", 2); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Grau_Chave ; in ; true ; 0 ; 0", 1, "0", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 1, "MSB", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 2, "MSB", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 1, "MSB", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 1, "MSB", 3); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 1, "MSB", 3); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, I:q)
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add Definition"); // y:JideButton (CommandBar:DockableBar, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Enter", 3, "Port Name", 0); // W:r (m:JViewport, I:q)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // I:q (cd:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F:H (Workspace:JPanel, cd:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pol_Grau - Behavioral (Pol_Grau.vhd)]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Pol_Grau - Behavioral (Pol_Grau.vhd)]", 6, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+minimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 66, 84); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 17, 99); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 13, 121); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 8, 28); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 3, 41); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 3, 41, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Pol_Grau.vhd", 236, 242); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 122, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 122, 93, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Pol_Grau.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 75, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 79, 260, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Pol_Grau.vhd", 85, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Pol_Grau.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 104 seconds
+selectCodeEditor("Pol_Grau.vhd", 175, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 168, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 139, 274); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 136, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "E0_Modo.vhd", 5); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+// HMemoryUtils.trashcanNow. Engine heap size: 826 MB. GUI used memory: 70 MB. Current time: 6/24/17 8:53:11 PM BRT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "E0_Modo.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 117, 91); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 117, 91, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Pol_Grau.vhd", 178, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("Pol_Grau.vhd", 109, 101); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 109, 101, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Pol_Grau.vhd", 137, 273); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "E0_Modo.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 424, 260); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Pol_Grau.vhd", 449, 210); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Pol_Grau.vhd", 237, 395); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 152, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("Pol_Grau.vhd", 285, 265); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Pol_Grau.vhd", 333, 269); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("Pol_Grau.vhd", 433, 271); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 385, 63); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 316, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 75 seconds
+selectCodeEditor("Pol_Grau.vhd", 166, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 194, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 1215 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "E0_Modo.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Main.vhd", 795, 441); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 134, 151); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 86, 167); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 94, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Pol_Grau.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("Pol_Grau.vhd", 294, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 230, 168); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 215, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Pol_Grau.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "E0_Modo.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+selectCodeEditor("Main.vhd", 305, 275); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("Main.vhd", 115, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 115, 146, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 139, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 114, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 114, 160, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 196, 438); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX3x7 - Behavioral (MUX3x7.vhd)]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX3x7 - Behavioral (MUX3x7.vhd)]", 5, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX3x7.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MUX3x7.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Pol_Grau.vhd", 162, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main.vhd", 114, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 114, 176, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 371, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 441, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+minimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("Main.vhd", 519, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 517, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("Main.vhd", 391, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 331, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 311, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("Main.vhd", 57, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 57, 348, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 717, 442); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("Main.vhd", 168, 427); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pol_Grau.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // as:DockableFrame
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)

@@ -304,3 +304,5 @@ RTL Elaboration Complete:  : Time (s): cpu = 00:04:08 ; elapsed = 01:24:07 . Mem
 16 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1093.375 ; gain = 251.332
+close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ]
+add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd

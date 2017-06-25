@@ -21,3 +21,5 @@ synth_design -rtl -name rtl_1
 synth_design -rtl -name rtl_1
 synth_design -rtl -name rtl_1
 synth_design -rtl -name rtl_1
+close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ]
+add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd
