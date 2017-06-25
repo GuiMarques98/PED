@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Jun 25 14:19:56 2017
+# Process ID: 4108
+# Current directory: C:/Users/Gustavo Linhares/Desktop/PED-master
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2812 C:\Users\Gustavo Linhares\Desktop\PED-master\projeto_fish.xpr
+# Log file: C:/Users/Gustavo Linhares/Desktop/PED-master/vivado.log
+# Journal file: C:/Users/Gustavo Linhares/Desktop/PED-master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.xpr}
+add_files -norecurse {{C:/Users/Gustavo Linhares/Documents/GitHub/PED/PED-Coeficientes/projeto_fish.srcs/sources_1/new/MUX1x2.vhd} {C:/Users/Gustavo Linhares/Documents/GitHub/PED/PED-Coeficientes/projeto_fish.srcs/sources_1/new/Demux5x1.vhd} {C:/Users/Gustavo Linhares/Documents/GitHub/PED/PED-Coeficientes/projeto_fish.srcs/sources_1/new/valorPolinomial.vhd}}
+remove_files  {{C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd}}
+file delete -force {C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd}
+update_compile_order -fileset sim_1
+remove_files  {{C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/polinomios.vhd}}
+file delete -force {C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/polinomios.vhd}
+remove_files  {{C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd}}
+file delete -force {C:/Users/Gustavo Linhares/Desktop/PED-master/projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd}
