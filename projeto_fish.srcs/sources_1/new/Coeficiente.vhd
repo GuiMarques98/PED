@@ -16,8 +16,6 @@ end Coeficiente;
 
 architecture Behavioral of Coeficiente is
 
-signal estado : STD_LOGIC_VECTOR (4 downto 0);
-
 component MaquinaEstados_Coef is
     Port ( Enter : in STD_LOGIC;
            Grau : in STD_LOGIC_VECTOR (1 downto 0);
@@ -31,12 +29,23 @@ component coef_est is
            Enter : in STD_LOGIC);
 end component;
 
+signal estado : STD_LOGIC_VECTOR (4 downto 0);
+
+
 begin
 C0: MaquinaEstados_Coef port map (Enter => Enter, Grau => Grau, Estado => estado);
 C1: coef_est port map (Coef_EST => estado(0), Coef_Chave => Chaves, Coef_out=>Coef_out_0, Enter =>Enter);
 C2: coef_est port map (Coef_EST => estado(1), Coef_Chave => Chaves, Coef_out=>Coef_out_1, Enter =>Enter);
 C3: coef_est port map (Coef_EST => estado(2), Coef_Chave => Chaves, Coef_out=>Coef_out_2, Enter =>Enter);
 C4: coef_est port map (Coef_EST => estado(3), Coef_Chave => Chaves, Coef_out=>Coef_out_3, Enter =>Enter);
-Acabou <= estado(4);
+
+    process
+    begin
+        if(estado(4) = '1') then
+            Acabou <= '1';
+            wait for 1000 ms;
+            Acabou <= '0';
+        end if;
+    end process;
 
 end Behavioral;
