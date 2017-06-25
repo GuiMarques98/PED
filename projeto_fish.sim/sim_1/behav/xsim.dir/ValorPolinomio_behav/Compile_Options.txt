@@ -1,0 +1,1 @@
+-wto "56abbe35f343487ca8bc204a0061ea2e" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "ValorPolinomio_behav" "xil_defaultlib.ValorPolinomio" -log "elaborate.log" 

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Jun 24 18:28:50 2017
+# Process ID: 4024
+# Current directory: C:/Users/guilh/Desktop/Vivado/projeto_fish
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent912 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
+# Log file: C:/Users/guilh/Desktop/Vivado/projeto_fish/vivado.log
+# Journal file: C:/Users/guilh/Desktop/Vivado/projeto_fish\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr
