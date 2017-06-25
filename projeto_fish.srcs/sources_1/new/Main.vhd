@@ -45,10 +45,10 @@ signal saidaMUX : STD_LOGIC_VECTOR(6 downto 0);
 signal grauPol_1, grauPol_2: STD_LOGIC_VECTOR (1 downto 0);
 
 begin
-    G0: MaquinaEstados port map (Enter=>enter,modo=>modo,saida=>saidaEstado);
-    G1 : MUX3x7 port map (ProcessoSaida=>saidaMUX,Processo=>saidaEstado);
-    G2 : E0_Modo port map (MODO_MUX => saidaMUX(0), ENTER => Enter, MODO_CHAVE => Chave(0), MODO_OUT => Modo);
-    G3 : Pol_Grau port map (Grau_MUX => saidaMUX(1), Grau_Chave(0) => chave(0), Grau_Chave(1) => chave(1), Grau_out=>grauPol_1, Enter=>Enter);
-    G4 : Pol_Grau port map (Grau_MUX => saidaMUX(2), Grau_Chave(0) => chave(0), Grau_Chave(1) => chave(1), Grau_out=>grauPol_2, Enter=>Enter);
-    
+G0: MaquinaEstados port map (Enter=>enter,modo=>modo,saida=>saidaEstado);
+G1: MUX3x7 port map (ProcessoSaida=>saidaMUX,Processo=>saidaEstado);
+G2: E0_Modo port map (MODO_MUX => saidaMUX(0), ENTER => Enter, MODO_CHAVE => Chave(0), MODO_OUT => Modo);
+G3: Pol_Grau port map (Grau_MUX => saidaMUX(1), Grau_Chave(0) => chave(0), Grau_Chave(1) => chave(1), Grau_out=>grauPol_1, Enter=>Enter);
+G4: Pol_Grau port map (Grau_MUX => saidaMUX(2), Grau_Chave(0) => chave(0), Grau_Chave(1) => chave(1), Grau_out=>grauPol_2, Enter=>Enter);
+
 end Behavioral;
