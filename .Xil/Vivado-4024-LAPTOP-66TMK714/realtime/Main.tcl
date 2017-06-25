@@ -31,9 +31,10 @@ set rt::rc [catch {
     set rt::useElabCache false
     if {$rt::useElabCache == false} {
       rt::read_vhdl -lib xil_defaultlib {
-      C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd
+      C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd
       C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd
       C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd
+      C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd
       C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd
     }
       rt::filesetChecksum
