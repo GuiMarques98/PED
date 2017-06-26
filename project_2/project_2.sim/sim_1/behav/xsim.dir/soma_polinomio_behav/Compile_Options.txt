@@ -1,0 +1,1 @@
+-wto "a32b9c68602a48cfa953262f362e849e" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "soma_polinomio_behav" "xil_defaultlib.soma_polinomio" -log "elaborate.log" 

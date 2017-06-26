@@ -2,4 +2,20 @@
 2016.4
 Jan 23 2017
 19:37:30
-C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd,1498169339,vhdl,,,,valorpolinomio,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BCD_7seg.vhd,1498433139,vhdl,,,,bcd_7seg,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BinBCD.vhd,1498432163,vhdl,,,,binbcd,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Coeficiente.vhd,1498430458,vhdl,,,,coeficiente,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/E0_Modo.vhd,1498430458,vhdl,,,,e0_modo,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd,1498430458,vhdl,,,,graupolinomio,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/MUX3x7.vhd,1498430458,vhdl,,,,mux3x7,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Main.vhd,1498430458,vhdl,,,,main,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd,1498430458,vhdl,,,,maquinaestados,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd,1498430458,vhdl,,,,maquinaestados_coef,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Mux.vhd,1498433525,vhdl,,,,mux,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd,1498430458,vhdl,,,,pol_grau,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Teste_Contador.vhd,1498433971,vhdl,,,,teste_contador,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd,1498430458,vhdl,,,,valorpolinomio,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/coef_est.vhd,1498430458,vhdl,,,,coef_est,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk.vhd,1498433446,vhdl,,,,divisor_clk,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk2.vhd,1498433675,vhdl,,,,divisor_clk2,,,,,,,,
+C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/polinomios.vhd,1498430458,vhdl,,,,polinomios,,,,,,,,

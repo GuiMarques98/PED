@@ -14,3 +14,21 @@ close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/so
 add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BinBCD.vhd}}
 close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BCD_7seg.vhd} w ]
 add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/BCD_7seg.vhd}}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk.vhd}}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Mux.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Mux.vhd}}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk2.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk2.vhd}}
+close [ open {C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Teste_Contador.vhd} w ]
+add_files {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Teste_Contador.vhd}}
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Teste_Contador [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source ValorPolinomio.tcl
+remove_files  {{C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Teste_Contador.vhd}}
+close_sim

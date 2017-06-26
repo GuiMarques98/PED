@@ -1,5 +1,21 @@
 # compile vhdl design source files
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/coef_est.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Pol_Grau.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/MUX3x7.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/E0_Modo.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Coeficiente.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Main.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/polinomios.vhd"
 vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/BinBCD.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/BCD_7seg.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/divisor_clk.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Mux.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/divisor_clk2.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Teste_Contador.vhd"
 
 # Do not sort compile order
 nosort
