@@ -30,5 +30,7 @@ INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eduardo Yoshida/Documents/GitH
 INFO: [VRFC 10-307] analyzing entity Mux
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/divisor_clk2.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity divisor_clk2
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Teste_Contador.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Teste_Contador
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sources_1/new/Sinal_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Sinal_7seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eduardo Yoshida/Documents/GitHub/PED/projeto_fish.srcs/sim_1/imports/new/teste_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity teste_Display

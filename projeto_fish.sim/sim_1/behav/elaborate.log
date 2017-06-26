@@ -1,6 +1,6 @@
 Vivado Simulator 2016.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 56abbe35f343487ca8bc204a0061ea2e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ValorPolinomio_behav xil_defaultlib.ValorPolinomio -log elaborate.log 
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 56abbe35f343487ca8bc204a0061ea2e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot teste_Display_behav xil_defaultlib.teste_Display -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,5 +10,12 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.valorpolinomio
-Built simulation snapshot ValorPolinomio_behav
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.divisor_clk [divisor_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.divisor_clk2 [divisor_clk2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.BCD_7seg [bcd_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Sinal_7seg [sinal_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.teste_display
+Built simulation snapshot teste_Display_behav

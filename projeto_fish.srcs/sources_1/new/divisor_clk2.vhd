@@ -10,17 +10,17 @@ end divisor_clk2;
 
 architecture Behavioral of divisor_clk2 is
 
-signal contador : STD_LOGIC_VECTOR(0 TO 17) := "000000000000000000";
+signal contador : STD_LOGIC_VECTOR(0 TO 16) := "00000000000000000";
 
 begin
     process(Clk_in)
     begin
         if rising_edge (clk_in) then
             contador <= contador + 1;
-            if(contador = "111111111111111111") then
-                contador <= "000000000000000000";
+            if(contador = "11111111111111111") then
+                contador <= "00000000000000000";
             end if;
         end if;
      end process;
-     clk_out <= contador(17);
+     clk_out <= contador(16);
 end Behavioral;

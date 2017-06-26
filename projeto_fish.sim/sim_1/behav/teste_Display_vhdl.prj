@@ -15,7 +15,8 @@ vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/BCD_7seg.vhd"
 vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/divisor_clk.vhd"
 vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Mux.vhd"
 vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/divisor_clk2.vhd"
-vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Teste_Contador.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Sinal_7seg.vhd"
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sim_1/imports/new/teste_Display.vhd"
 
 # Do not sort compile order
 nosort

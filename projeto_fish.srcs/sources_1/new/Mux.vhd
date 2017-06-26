@@ -26,6 +26,7 @@ begin
                 when "01" => Output <= Input(7 downto 4);
                 when "10" => Output <= Input(11 downto 8);
                 when "11" => Sinal <= Input(12);
+                when others => Sinal <='0'; 
             end case;
     end process;
                 

@@ -13,6 +13,7 @@ architecture Behavioral of divisor_clk is
 signal contador : STD_LOGIC_VECTOR(0 TO 18) := "0000000000000000000";
 
 begin
+    process(Clk_in)
     begin
         if rising_edge (clk_in) then
             contador <= contador + 1;
