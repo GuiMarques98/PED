@@ -2,10 +2,10 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Sat Jun 24 18:28:50 2017
-# Process ID: 4024
+# Start of session at: Sun Jun 25 23:42:50 2017
+# Process ID: 3936
 # Current directory: C:/Users/guilh/Desktop/Vivado/projeto_fish
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent912 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9832 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
 # Log file: C:/Users/guilh/Desktop/Vivado/projeto_fish/vivado.log
 # Journal file: C:/Users/guilh/Desktop/Vivado/projeto_fish\vivado.jou
 #-----------------------------------------------------------
@@ -16,23 +16,35 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
-open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:35 . Memory (MB): peak = 673.801 ; gain = 78.512
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 727.555 ; gain = 128.301
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Multiplicador.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Complemento_2.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/imports/new/somadorCompleto.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/imports/new/meio_somador.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd
+update_compile_order -fileset sim_1
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/polinomios.vhd
+close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd w ]
+add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd
+set_property top Circuito_Aritimetico [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
 launch_simulation
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-37] Inspecting design source files for 'ValorPolinomio' in fileset 'sim_1'...
+INFO: [USF-XSim-37] Inspecting design source files for 'Circuito_Aritimetico' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav'
-"xvhdl -m64 --relax -prj ValorPolinomio_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity ValorPolinomio
-INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+"xvhdl -m64 --relax -prj Circuito_Aritimetico_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Circuito_Aritimetico
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav'
 Vivado Simulator 2016.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 56abbe35f343487ca8bc204a0061ea2e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ValorPolinomio_behav xil_defaultlib.ValorPolinomio -log elaborate.log 
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 56abbe35f343487ca8bc204a0061ea2e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Circuito_Aritimetico_behav xil_defaultlib.Circuito_Aritimetico -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -42,27 +54,28 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.valorpolinomio
-Built simulation snapshot ValorPolinomio_behav
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.circuito_aritimetico
+Built simulation snapshot Circuito_Aritimetico_behav
 
 ****** Webtalk v2016.4 (64-bit)
   **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
   **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 
-source C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/ValorPolinomio_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/ValorPolinomio_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Jun 24 19:44:56 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Sat Jun 24 19:44:56 2017...
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 742.723 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+source C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/Circuito_Aritimetico_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav/xsim.dir/Circuito_Aritimetico_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 26 01:39:15 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 26 01:39:15 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 764.926 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.sim/sim_1/behav'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "ValorPolinomio_behav -key {Behavioral:sim_1:Functional:ValorPolinomio} -tclbatch {ValorPolinomio.tcl} -log {simulate.log}"
+   with args "Circuito_Aritimetico_behav -key {Behavioral:sim_1:Functional:Circuito_Aritimetico} -tclbatch {Circuito_Aritimetico.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2016.4
 Time resolution is 1 ps
-source ValorPolinomio.tcl
+source Circuito_Aritimetico.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -73,386 +86,19 @@ source ValorPolinomio.tcl
 #   }
 # }
 # run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'ValorPolinomio_behav' loaded.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Circuito_Aritimetico_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 742.723 ; gain = 0.000
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:02:14 ; elapsed = 01:16:18 . Memory (MB): peak = 766.641 ; gain = 556.648
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:25]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:15 ; elapsed = 01:16:20 . Memory (MB): peak = 804.082 ; gain = 594.090
----------------------------------------------------------------------------------
-RTL Elaboration failed
-3 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:02:38 ; elapsed = 01:17:25 . Memory (MB): peak = 809.223 ; gain = 599.230
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:25]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:39 ; elapsed = 01:17:26 . Memory (MB): peak = 809.223 ; gain = 599.230
----------------------------------------------------------------------------------
-RTL Elaboration failed
-3 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:02:56 ; elapsed = 01:18:56 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:48]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:45]
-ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:02:57 ; elapsed = 01:18:57 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-RTL Elaboration failed
-3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:06 ; elapsed = 01:19:44 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:48]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:45]
-ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:07 ; elapsed = 01:19:45 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-RTL Elaboration failed
-3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:15 ; elapsed = 01:20:14 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-ERROR: [Synth 8-426] missing choice(s) 4 to 5 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:49]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-ERROR: [Synth 8-285] failed synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:16 ; elapsed = 01:20:15 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-RTL Elaboration failed
-3 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:25 ; elapsed = 01:21:12 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-ERROR: [Synth 8-426] missing choice(s) 32'b00000000000000000000000000000111 in case statement [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:15]
-ERROR: [Synth 8-285] failed synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:26 ; elapsed = 01:21:13 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-RTL Elaboration failed
-6 Infos, 3 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:35 ; elapsed = 01:21:54 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-ERROR: [Synth 8-549] port width mismatch for port 'ProcessoSaida': port width = 7, actual width = 3 [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]
-ERROR: [Synth 8-549] port width mismatch for port 'Processo': port width = 3, actual width = 7 [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:34' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:40]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:36 ; elapsed = 01:21:54 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-RTL Elaboration failed
-8 Infos, 3 Warnings, 0 Critical Warnings and 4 Errors encountered.
-synth_design failed
-ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
-synth_design -rtl -name rtl_1
-Command: synth_design -rtl -name rtl_1
-Starting synth_design
-Using part: xc7a35tcpg236-1
-Top: Main
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:03:46 ; elapsed = 01:23:41 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:38]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:39]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:34' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:40]
-INFO: [Synth 8-638] synthesizing module 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'E0_Modo' (3#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'Main' (4#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-WARNING: [Synth 8-3331] design Main has unconnected port memoria
-WARNING: [Synth 8-3331] design Main has unconnected port devivada
-WARNING: [Synth 8-3331] design Main has unconnected port operacao[1]
-WARNING: [Synth 8-3331] design Main has unconnected port operacao[0]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[4]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[3]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[2]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[1]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:03:47 ; elapsed = 01:23:42 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:47 ; elapsed = 01:23:43 . Memory (MB): peak = 842.043 ; gain = 632.051
----------------------------------------------------------------------------------
-INFO: [Device 21-403] Loading part xc7a35tcpg236-1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
-
-Processing XDC Constraints
-Initializing timing engine
-Completed Processing XDC Constraints
-
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-RTL Elaboration Complete:  : Time (s): cpu = 00:04:08 ; elapsed = 01:24:07 . Memory (MB): peak = 1093.375 ; gain = 883.383
-16 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 1093.375 ; gain = 251.332
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:06:51 ; elapsed = 02:55:27 . Memory (MB): peak = 1134.680 ; gain = 924.688
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:48]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:4' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'E0_Modo' (3#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-3491] module 'Pol_Grau' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:5' bound to instance 'G3' of component 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-ERROR: [Synth 8-690] width mismatch in assignment; target has 3 bits, source has 2 bits [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:20]
-ERROR: [Synth 8-285] failed synthesizing module 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:06:52 ; elapsed = 02:55:29 . Memory (MB): peak = 1134.680 ; gain = 924.688
----------------------------------------------------------------------------------
-RTL Elaboration failed
-refresh_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1134.680 ; gain = 0.000
-ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:07:15 ; elapsed = 02:59:14 . Memory (MB): peak = 1134.680 ; gain = 924.688
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:48]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:4' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'E0_Modo' (3#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-3491] module 'Pol_Grau' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:5' bound to instance 'G3' of component 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'Pol_Grau' (4#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-ERROR: [Synth 8-97] array index 2 out of range [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:50]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:07:16 ; elapsed = 02:59:15 . Memory (MB): peak = 1135.840 ; gain = 925.848
----------------------------------------------------------------------------------
-RTL Elaboration failed
-refresh_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.840 ; gain = 1.160
-ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:07:28 ; elapsed = 03:00:28 . Memory (MB): peak = 1144.582 ; gain = 934.590
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:48]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:4' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'E0_Modo' (3#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-3491] module 'Pol_Grau' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:5' bound to instance 'G3' of component 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:51]
-INFO: [Synth 8-638] synthesizing module 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'Pol_Grau' (4#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-ERROR: [Synth 8-258] duplicate port association for 'grau_chave' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:51]
-ERROR: [Synth 8-285] failed synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:07:29 ; elapsed = 03:00:29 . Memory (MB): peak = 1144.582 ; gain = 934.590
----------------------------------------------------------------------------------
-RTL Elaboration failed
-refresh_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1144.582 ; gain = 2.566
-ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
-refresh_design
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:07:38 ; elapsed = 03:01:02 . Memory (MB): peak = 1144.582 ; gain = 934.590
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-INFO: [Synth 8-3491] module 'MaquinaEstados' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:4' bound to instance 'G0' of component 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:48]
-INFO: [Synth 8-638] synthesizing module 'MaquinaEstados' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:22]
-WARNING: [Synth 8-614] signal 'Modo' is read in the process but is not in the sensitivity list [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:46]
-WARNING: [Synth 8-3848] Net Modo in module/entity MaquinaEstados does not have driver. [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:6]
-INFO: [Synth 8-256] done synthesizing module 'MaquinaEstados' (1#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados.vhd:10]
-INFO: [Synth 8-3491] module 'MUX3x7' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:4' bound to instance 'G1' of component 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:49]
-INFO: [Synth 8-638] synthesizing module 'MUX3x7' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-256] done synthesizing module 'MUX3x7' (2#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MUX3x7.vhd:9]
-INFO: [Synth 8-3491] module 'E0_Modo' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:4' bound to instance 'G2' of component 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'E0_Modo' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'E0_Modo' (3#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/E0_Modo.vhd:11]
-INFO: [Synth 8-3491] module 'Pol_Grau' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:5' bound to instance 'G3' of component 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:51]
-INFO: [Synth 8-638] synthesizing module 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-INFO: [Synth 8-256] done synthesizing module 'Pol_Grau' (4#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:12]
-INFO: [Synth 8-3491] module 'Pol_Grau' declared at 'C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd:5' bound to instance 'G4' of component 'Pol_Grau' [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:52]
-INFO: [Synth 8-256] done synthesizing module 'Main' (5#1) [C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Main.vhd:13]
-WARNING: [Synth 8-3331] design Main has unconnected port memoria
-WARNING: [Synth 8-3331] design Main has unconnected port devivada
-WARNING: [Synth 8-3331] design Main has unconnected port operacao[1]
-WARNING: [Synth 8-3331] design Main has unconnected port operacao[0]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[4]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[3]
-WARNING: [Synth 8-3331] design Main has unconnected port chave[2]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:07:39 ; elapsed = 03:01:03 . Memory (MB): peak = 1144.582 ; gain = 934.590
----------------------------------------------------------------------------------
-
-Report Check Netlist: 
-+------+------------------+-------+---------+-------+------------------+
-|      |Item              |Errors |Warnings |Status |Description       |
-+------+------------------+-------+---------+-------+------------------+
-|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-+------+------------------+-------+---------+-------+------------------+
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:07:39 ; elapsed = 03:01:04 . Memory (MB): peak = 1144.582 ; gain = 934.590
----------------------------------------------------------------------------------
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
-
-Processing XDC Constraints
-Initializing timing engine
-Completed Processing XDC Constraints
-
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1186.496 ; gain = 41.914
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-file delete -force C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1186.496 ; gain = 0.000
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 25 00:11:56 2017...
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:27 . Memory (MB): peak = 770.582 ; gain = 5.656
+add_force {/Circuito_Aritimetico/Coef_0_1[3]} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[2]} -radix bin {0 0ns} {1 100000ps} -repeat_every 200000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[1]} -radix bin {0 0ns} {1 200000ps} -repeat_every 400000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[0]} -radix bin {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[3]} -radix bin {0 0ns} {1 800000ps} -repeat_every 1600000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[2]} -radix bin {0 0ns} {1 1600000ps} -repeat_every 3200000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[1]} -radix bin {0 0ns} {1 3200000ps} -repeat_every 6400000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[0]} -radix bin {0 0ns} {1 6400000ps} -repeat_every 12800000ps
+add_force {/Circuito_Aritimetico/Coef_0_1} -radix bin {0000 0ns} {1111 50000ps} -repeat_every 100000ps
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 1 us  Iteration: 0
+ERROR: unknown error occurred
+add_force {/Circuito_Aritimetico/Coef_0_1} -radix bin {0000 0ns} {1111 50000ps} -repeat_every 100000ps

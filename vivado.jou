@@ -2,39 +2,40 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Sat Jun 24 18:28:50 2017
-# Process ID: 4024
+# Start of session at: Sun Jun 25 23:42:50 2017
+# Process ID: 3936
 # Current directory: C:/Users/guilh/Desktop/Vivado/projeto_fish
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent912 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9832 C:\Users\guilh\Desktop\Vivado\projeto_fish\projeto_fish.xpr
 # Log file: C:/Users/guilh/Desktop/Vivado/projeto_fish/vivado.log
 # Journal file: C:/Users/guilh/Desktop/Vivado/projeto_fish\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.xpr
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Multiplicador.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Complemento_2.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/imports/new/somadorCompleto.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/imports/new/meio_somador.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/GrauPolinomio.vhd
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/ValorPolinomio.vhd
+update_compile_order -fileset sim_1
+remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/polinomios.vhd
+close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd w ]
+add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Circuito_Aritimetico [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
 launch_simulation
-source ValorPolinomio.tcl
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-synth_design -rtl -name rtl_1
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Pol_Grau.vhd
-refresh_design
-refresh_design
-refresh_design
-refresh_design
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Coeficiente.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-remove_files  C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-file delete -force C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/Maquina_Estado_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/MaquinaEstados_Coef.vhd
-close [ open C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd w ]
-add_files C:/Users/guilh/Desktop/Vivado/projeto_fish/projeto_fish.srcs/sources_1/new/coef_est.vhd
-close_sim
+source Circuito_Aritimetico.tcl
+add_force {/Circuito_Aritimetico/Coef_0_1[3]} -radix bin {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[2]} -radix bin {0 0ns} {1 100000ps} -repeat_every 200000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[1]} -radix bin {0 0ns} {1 200000ps} -repeat_every 400000ps
+add_force {/Circuito_Aritimetico/Coef_0_1[0]} -radix bin {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[3]} -radix bin {0 0ns} {1 800000ps} -repeat_every 1600000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[2]} -radix bin {0 0ns} {1 1600000ps} -repeat_every 3200000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[1]} -radix bin {0 0ns} {1 3200000ps} -repeat_every 6400000ps
+add_force {/Circuito_Aritimetico/Coef_1_1[0]} -radix bin {0 0ns} {1 6400000ps} -repeat_every 12800000ps
+add_force {/Circuito_Aritimetico/Coef_0_1} -radix bin {0000 0ns} {1111 50000ps} -repeat_every 100000ps
+add_force {/Circuito_Aritimetico/Coef_0_1} -radix bin {0000 0ns} {1111 50000ps} -repeat_every 100000ps

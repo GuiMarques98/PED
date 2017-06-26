@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../projeto_fish.srcs/sources_1/new/Circuito_Aritimetico.vhd"
+
+# Do not sort compile order
+nosort
